@@ -6,7 +6,7 @@
 <h2>My GitHub projects:</h2>
 <ul>
 <li><a href="./a/">Project a</a></li>
-<li>Project b</li>
+<li><a href="./b/">Project b</a></li>
 </ul>
 </body>
 </html>

@@ -1,16 +1,18 @@
 <!--  using HTML5 -->
 <html>
 <head>
-    s<meta charset="utf-8"></meta>
-    <!--<meta charset="ISO-8859-2"> -->s
+    <meta charset="utf-8"></meta>
+    <!--<meta charset="ISO-8859-2"> -->
     <title>tpalucki main page</title>
 </head>
 <body>
-    <h1>Tomasz Pałucki - home page</h1>
-    <h2>My GitHub projects:</h2>
-    <ul>
-        <li><a href="./erlNXT/">erlNXT Project</a></li>
-        <li><a href="./b/">Project b</a></li>
-    </ul>
+    <div class="main_container">
+        <h1>Tomasz Pałucki - home page</h1>
+        <h2>My GitHub projects:</h2>
+        <ul>
+            <li><a href="./erlNXT/">erlNXT Project</a></li>
+            <!-- <li><a href="./">Project b</a></li> -->
+        </ul>
+    </div>
 </body>
 </html>

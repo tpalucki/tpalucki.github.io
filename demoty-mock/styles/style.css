@@ -1,3 +1,49 @@
 body {
-	background: lightblue;
+	background-color: black;
+	color: white;
 }
+
+a {
+	color: white;
+}
+
+.header {
+	width: 100%;
+	min-height: 100px;
+
+	/*background: black;*/
+	/*position: */
+
+}
+
+.header-content {
+	position: absolute;
+	left: 47%;	
+	margin-top: 50px;
+}
+
+.content {
+	width: 100%;
+}
+
+/*.content-box {
+	position: absolute;
+}*/
+
+.footer {
+	width: 100%;
+	position: fixed;
+	bottom: 10px;
+
+	/*display: block;*/
+	
+
+	/*background-color: blue;*/
+}
+
+/*.footer-content {
+	position: absolute;
+	background-color: white;
+
+	margin-left: 50px;
+}*/

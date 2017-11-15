@@ -18,7 +18,7 @@ a {
 
 .header-content {
 	position: absolute;
-	left: 47%;	
+	left: 45%;	
 	margin-top: 50px;
 }
 
@@ -26,9 +26,16 @@ a {
 	width: 100%;
 }
 
-/*.content-box {
-	position: absolute;
-}*/
+.content-box {
+	position: relative;
+	left: 30%;
+
+	min-width: 50px;
+	max-width: 400px;
+
+	min-height: 400px;
+	max-height: 400px;
+}
 
 .footer {
 	width: 100%;
@@ -41,9 +48,9 @@ a {
 	/*background-color: blue;*/
 }
 
-/*.footer-content {
-	position: absolute;
-	background-color: white;
+.footer-content {
+	position: relative;
+	left: 10%;
 
 	margin-left: 50px;
-}*/
+}

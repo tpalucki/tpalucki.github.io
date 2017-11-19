@@ -3,34 +3,52 @@ body {
 	color: white;
 }
 
+header {
+	/*background: radial-gradient(gray, black);*/
+	width: 50%;
+	margin: auto;
+}
+
 a {
 	color: white;
 }
 
-img {
-	display: block;
+article {
+	width: 50%;
+	margin: auto;
+	text-align: center;
 }
 
-.header {
+figcaption {
+	width 50%;
+	margin: auto;
+	text-align: center;
+}
+
+/*img {
+	display: block;
+}
+*/
+/*.header {
 	width: 100%;
 	min-height: 100px;
 
 	/*background: black;*/
 	/*position: */
 
-}
+/*}*/
 
-.header-content {
+/*.header-content {
 	position: absolute;
 	left: 45%;	
 	margin-top: 50px;
-}
+}*/
 
-.content {
+/*.content {
 	width: 100%;
-}
+}*/
 
-.content-box {
+/*.content-box {
 	position: relative;
 	left: 30%;
 
@@ -39,22 +57,22 @@ img {
 
 	min-height: 400px;
 	max-height: 400px;
-}
+}*/
 
-.footer {
+/*.footer {
 	width: 100%;
 	position: fixed;
 	bottom: 10px;
-
+*/
 	/*display: block;*/
 	
 
 	/*background-color: blue;*/
-}
+/*}
 
 .footer-content {
 	position: relative;
 	left: 10%;
 
 	margin-left: 50px;
-}
+}*/

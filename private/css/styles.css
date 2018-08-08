@@ -1,5 +1,11 @@
 .centered {
     /*margin-left: auto;*/
     /*margin-right: auto;*/
+    margin:auto;
+    max-width: 40%;
     text-align: center;
+}
+
+ul {
+    text-align: left;
 }

@@ -1,9 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Blanka & Tomasz</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Blanka & Tomek</title>
+
+    <!-- Custom styles for this template -->
+    <link href="./styles.css" rel="stylesheet">
+
+    <style>
+        /* Set the size of the div element that contains the map */
+        #map {
+            height: 400px; /* The height is 400 pixels */
+            width: 100%; /* The width is the width of the web page */
+        }
+    </style>
+
 </head>
 <body>
 
+<main role="main" class="container">
+
+    <div class="starter-template">
+        <h1>Blanka i Tomek</h1>
+        <p class="lead">Zapraszamy Was serdencznie na nasze wesele!</p>
+
+        <h1>Kiedy</h1>
+
+        <h1>Gdzie</h1>
+        <div id="map"></div>
+
+        <h1>Potwierdzenie</h1>
+
+    </div>
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // positions: church, restaurant and where to center
+            var church_pos = {lat: 49.8739682, lng: 19.5253851};
+            var restaurant_pos = {lat: 49.7781462, lng: 19.3188456};
+            var center_pos = {lat: 49.8242539, lng: 19.407922};
+
+            // initialize map
+            var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 11, center: center_pos});
+
+            // Markers for church and restaurant
+            var church_marker = new google.maps.Marker({position: church_pos, map: map});
+            var resto_marker = new google.maps.Marker({position: restaurant_pos, map: map});
+
+        }
+    </script>
+
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm_6H000uW9r196mQGTnZs3tdWQTKOe-c&callback=initMap">
+    </script>
+
+</main><!-- /.container -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="/docs/4.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+        crossorigin="anonymous"></script>
 </body>
 </html>

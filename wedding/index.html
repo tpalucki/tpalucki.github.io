@@ -17,6 +17,15 @@
 
     <!-- Custom styles for this template -->
     <link href="./styles.css" rel="stylesheet">
+
+    <style>
+        /* Set the size of the div element that contains the map */
+        #map {
+            height: 400px; /* The height is 400 pixels */
+            width: 100%; /* The width is the width of the web page */
+        }
+    </style>
+
 </head>
 <body>
 
@@ -29,10 +38,39 @@
         <h1>Kiedy</h1>
 
         <h1>Gdzie</h1>
+        <div id="map"></div>
 
         <h1>Potwierdzenie</h1>
 
     </div>
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // positions: church, restaurant and where to center
+            var church_pos = {lat: 49.8739682, lng: 19.5253851};
+            var restaurant_pos = {lat: 49.7781462, lng: 19.3188456};
+            var center_pos = {lat: 49.8242539, lng: 19.407922};
+
+            // initialize map
+            var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 11, center: center_pos});
+
+            // Markers for church and restaurant
+            var church_marker = new google.maps.Marker({position: church_pos, map: map});
+            var resto_marker = new google.maps.Marker({position: restaurant_pos, map: map});
+
+        }
+    </script>
+
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm_6H000uW9r196mQGTnZs3tdWQTKOe-c&callback=initMap">
+    </script>
 
 </main><!-- /.container -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

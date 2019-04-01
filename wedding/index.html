@@ -17,15 +17,6 @@
 
     <!-- Custom styles for this template -->
     <link href="./styles.css" rel="stylesheet">
-
-    <style>
-        /* Set the size of the div element that contains the map */
-        #map {
-            height: 400px; /* The height is 400 pixels */
-            width: 100%; /* The width is the width of the web page */
-        }
-    </style>
-
 </head>
 <body>
 
@@ -57,8 +48,8 @@
                 document.getElementById('map'), {zoom: 11, center: center_pos});
 
             // Markers for church and restaurant
-            var church_marker = new google.maps.Marker({position: church_pos, map: map});
-            var resto_marker = new google.maps.Marker({position: restaurant_pos, map: map});
+            var church_marker = new google.maps.Marker({position: church_pos, map: map, title: 'Kościół'});
+            var resto_marker = new google.maps.Marker({position: restaurant_pos, map: map, title: 'Restauracja'});
 
         }
     </script>

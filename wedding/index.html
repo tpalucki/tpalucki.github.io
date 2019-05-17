@@ -38,12 +38,14 @@
             Blanka i Tomek
         </p>
     </div>
+
     <div id="when" class="text-center">
         <h1>Kiedy?</h1>
         <p>
             16 maja 2020 roku
         </p>
     </div>
+
     <div id="where" class="text-center">
         <h1>Gdzie?</h1>
         <p>
@@ -52,18 +54,23 @@
             Impreza - Kocierz Hotel &amp; SPA, Beskidzka, Targanice
         </p>
     </div>
+
+
+
     <div id="confirmation" class="">
         <p>
-            Bardzo prosimy o potwierdzenie, że bedziecie przez:</p><br/>
+            Bardzo prosimy o potwierdzenie, że bedziecie przez:
+        </p><br/>
         <a href="#">ten formularz</a><br/>
         W razie pytań:
         <ul>
             <li>Tomek (111-222-333)</li>
             <li>Blanka (444-555-666)</li>
         </ul>
-        </p>
     </div>
 </div>
+
+<div id="map"></div>
 
 <script src="scripts.js"></script>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -76,5 +83,15 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+<!--Load the API from the specified URL
+* The async attribute allows the browser to render the page while the API loads
+* The key parameter will contain your own API key (which is not needed for this tutorial)
+* The callback parameter executes the initMap() function
+-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm_6H000uW9r196mQGTnZs3tdWQTKOe-c&callback=initMap" async
+        defer>
+</script>
+
 </body>
 </html>

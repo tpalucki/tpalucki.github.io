@@ -1,87 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Blanka &amp; Tomasz</title>
+    <meta name="description" content="Tom &amp; Blanka wedding">
+    <meta name="author" content="Tomasz Pałucki">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.5">
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-
-    <!-- Bootstrap core CSS -->
-    <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>Blanka & Tomek</title>
-
-    <!-- Custom styles for this template -->
-    <link href="./styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
 </head>
 <body>
-
-<main role="main" class="container">
-
-    <div class="starter-template">
-        <h1>Blanka i Tomek</h1>
-        <p calss="lead">16 maja 2020</p>
-        <p class="lead">Zapraszamy Was serdencznie na nasz ślub i przyjęcie weselne!</p>
-        <div id="map"></div>
-
-        <h1>Potwierdzenie</h1>
-        <p>Bardzo prosimy o potwierdzenie przybycia najdalej 2 tygodnie przed przyjęciem, czyli do dnia 03.05.2019</p>
-        <p>Dajcie znać czy zamierzacie spać w hotelu (już zarezerwowany)</p>
-        <!--TODO wstawić link do potwierdzenia-->
-        <p>Potwierdzić można <a href="https://forms.gle/Bv9dn2wGRcthx9Xi6">przez formularz</a>  (preferowane) lub telefonicznie:</p>
-        <ul>
-            <li>Blanka 503-033-963</li>
-            <li>Tomek 693-225-143</li>
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-sm justify-content-center bg-light">
+        <ul class="navbar-nav">
+            <li class="navbar-item">
+                <a href="#when" class="nav-link">Kiedy</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#where" class="nav-link">Gdzie</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#org-info" class="nav-link">Info organizacyjne</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#confirmation" class="nav-link">Potwierdzenie</a>
+            </li>
         </ul>
+    </nav>
 
-        <h1>Harmonogram</h1>
-        <ul>
-            <li>15:00-16:00 - ślub</li>
-            <li>16:00-18:00 - czas na zdjęcia, przebranie się, przejazd do restauracji itp</li>
-
-        </ul>
+    <div id="invitation" class="text-center invitation">
+        <p>
+            Kochani!<br>
+            Zapraszamy gorąco na nasz ślub!<br>
+            Blanka i Tomek
+        </p>
     </div>
 
-    <script>
-        // Initialize and add the map
-        function initMap() {
-            // positions: church, restaurant and where to center
-            var church_pos = {lat: 49.8739682, lng: 19.5253851};
-            var restaurant_pos = {lat: 49.7781462, lng: 19.3188456};
-            var center_pos = {lat: 49.8242539, lng: 19.407922};
+    <div id="when" class="text-center">
+        <h1>Kiedy?</h1>
+        <p>
+            16 maja 2020 roku
+        </p>
+    </div>
 
-            // initialize map
-            var map = new google.maps.Map(
-                document.getElementById('map'), {zoom: 11, center: center_pos});
+    <div id="where" class="text-center">
+        <h1>Gdzie?</h1>
+        <p>
+            Msza - 15:00 Stowarzyszenia Apostolstwa Katolickiego Księża Pallotyni. Dom
+            Imienia P.Latochy<br>
+            Impreza - Kocierz Hotel &amp; SPA, Beskidzka, Targanice
+        </p>
+    </div>
 
-            // Markers for church and restaurant
-            var church_marker = new google.maps.Marker({position: church_pos, map: map, title: 'Kościół'});
-            var resto_marker = new google.maps.Marker({position: restaurant_pos, map: map, title: 'Restauracja'});
 
-        }
-    </script>
 
-    <!--Load the API from the specified URL
-    * The async attribute allows the browser to render the page while the API loads
-    * The key parameter will contain your own API key (which is not needed for this tutorial)
-    * The callback parameter executes the initMap() function
-    -->
-    <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm_6H000uW9r196mQGTnZs3tdWQTKOe-c&callback=initMap">
-    </script>
+    <div id="confirmation" class="">
+        <p>
+            Bardzo prosimy o potwierdzenie, że bedziecie przez:
+        </p><br/>
+        <a href="#">ten formularz</a><br/>
+        W razie pytań:
+        <ul>
+            <li>Tomek (111-222-333)</li>
+            <li>Blanka (444-555-666)</li>
+        </ul>
+    </div>
+</div>
 
-</main><!-- /.container -->
+<!--<div id="map"></div>-->
+
+<script src="scripts.js"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-<script src="/docs/4.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+<!--Load the API from the specified URL
+* The async attribute allows the browser to render the page while the API loads
+* The key parameter will contain your own API key (which is not needed for this tutorial)
+* The callback parameter executes the initMap() function
+-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm_6H000uW9r196mQGTnZs3tdWQTKOe-c&callback=initMap" async
+        defer>
+</script>
+
 </body>
 </html>

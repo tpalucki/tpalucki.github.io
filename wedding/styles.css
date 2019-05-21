@@ -3,14 +3,16 @@
     padding:0;
 }
 
+/*TODO put some photo here*/
 .invitation {
     display: block;
     /*min-height: 600px;*/
-    background-color: black;
+    /*background-color: black;*/
+    background-color: white;
 }
 
 .invitation p {
-    color: white;
+    /*color: white;*/
     padding-top: 10%;
     padding-bottom: 10%;
 }
@@ -29,7 +31,7 @@
 /*}*/
 
 #confirmation {
-    padding-left: 35%;
+    /*padding-left: 35%;*/
 }
 
 #map {

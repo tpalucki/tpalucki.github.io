@@ -35,8 +35,9 @@
 }
 
 #map {
-    height: 100%;
-    /*height: 500px;*/
+    /*height: 100%;*/
+    height: 500px;
+    width: 30%;
     /*padding-left: 20%;*/
     /*padding-right: 20%;*/
 }

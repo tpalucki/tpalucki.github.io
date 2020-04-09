@@ -7,6 +7,8 @@ body {
     width: 21cm;
     height: 29.7cm;
     padding: 1cm;
+
+    margin: 2% auto 0;
 }
 
 .container-grid {

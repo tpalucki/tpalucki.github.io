@@ -2,6 +2,10 @@
     font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #16588b;
+}
+
 body {
     background: rgb(204, 204, 204);
 }

@@ -37,3 +37,7 @@ body {
 .value {
     grid-column: 4 / 12;
 }
+
+.bold {
+    font-weight: bold;
+}

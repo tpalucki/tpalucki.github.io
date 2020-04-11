@@ -9,7 +9,7 @@ body {
 .page {
     background: white;
     width: 21cm;
-    height: 29.7cm;
+    /*height: 29.7cm;*/ /*TODO proeprty commented out until page breaking is prepared*/
     padding: 1cm 2cm;
     margin: 2% auto 0;
 }

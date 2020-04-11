@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 div {
@@ -39,6 +39,11 @@ body {
 
 .section-header {
     text-align: center;
+}
+
+.section-header > p {
+    color: grey;
+    font-size: 20px;
 }
 
 .heading {

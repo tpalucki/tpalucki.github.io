@@ -65,3 +65,10 @@ body {
     color: grey;
     font-style: italic;
 }
+
+/*TODO remove link class from html*/
+a a:visited a:active a:hover {
+    text-decoration: none;
+    color: black;
+    text-underline-mode: off;
+}

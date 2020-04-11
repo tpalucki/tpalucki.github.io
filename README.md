@@ -1,3 +1,3 @@
 # tpalucki.github.io
 
-[CV](./cv)
+[Tomasz Pałucki - CV](https://tpalucki.github.io/cv)

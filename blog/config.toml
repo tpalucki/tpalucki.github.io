@@ -1,0 +1,4 @@
+baseurl      = "localhost"
+title        = "My Blog"
+languageCode = "en-us"
+theme        = "lekh"

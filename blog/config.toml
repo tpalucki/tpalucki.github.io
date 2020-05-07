@@ -1,4 +1,0 @@
-baseURL = "http://tpalucki.github.io/blog"
-languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "hugo-coder"

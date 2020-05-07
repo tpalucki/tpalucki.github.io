@@ -1,4 +1,4 @@
-baseurl      = "localhost"
-title        = "My Blog"
+baseurl      = "https://tpalucki.github.io/blog"
+title        = "Tomasz Pałucki"
 languageCode = "en-us"
 theme        = "lekh"

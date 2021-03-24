@@ -11,11 +11,11 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-49627445-3
+googleAnalytics: UA-49627445-2
 
 minify:
   disableXML: true
-#  minifyOutput: true
+  #  minifyOutput: true
   minifyOutput: false
 
 params:
@@ -72,12 +72,14 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    #    - name: twitter
+    #      url: "https://twitter.com/"
+    #    - name: stackoverflow
+    #      url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/tpalucki"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/tpalucki/"
 
   analytics:
     google:

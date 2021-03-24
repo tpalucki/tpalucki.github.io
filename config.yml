@@ -15,7 +15,8 @@ googleAnalytics: UA-49627445-3
 
 minify:
   disableXML: true
-  minifyOutput: true
+#  minifyOutput: true
+  minifyOutput: false
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.

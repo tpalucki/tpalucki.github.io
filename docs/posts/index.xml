@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Tomasz Pałucki</title>
+    <link>https://tpalucki.gitub.io/posts/</link>
+    <description>Recent content in Posts on Tomasz Pałucki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 May 2020 15:09:22 +0200</lastBuildDate><atom:link href="https://tpalucki.gitub.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Boot With Angular build integration</title>
+      <link>https://tpalucki.gitub.io/posts/spring-boot-with-angular-tutorial/</link>
+      <pubDate>Mon, 11 May 2020 15:09:22 +0200</pubDate>
+      
+      <guid>https://tpalucki.gitub.io/posts/spring-boot-with-angular-tutorial/</guid>
+      <description>Angular and Spring Boot are pretty widely used technologies nowadays. Both projects are mature, well documented and supported by large community. That is why I decided to show you how to build self contained Angular 8 application backed with the Spring Boot 2 App.
+Code shown in this tutorial might be used as starter template for your own project. All the code is available on my github.
+Step 1 - Generate the Spring Boot App Go to https://start.</description>
+    </item>
+    
+    <item>
+      <title>How this blog is built</title>
+      <link>https://tpalucki.gitub.io/posts/how-this-blog-is-built/</link>
+      <pubDate>Sun, 10 May 2020 13:52:37 +0200</pubDate>
+      
+      <guid>https://tpalucki.gitub.io/posts/how-this-blog-is-built/</guid>
+      <description>I haven&amp;rsquo;t had any experience in building a blog yet but as an engineer I had some vision and principles I wanted to follow. Some of them:
+ Simplicity and minimalism Readability Ease of configuration Themes available - because I want to deliver fast to stay in the fun zone Possibility to extend later  The easiest way would be to setup blog on a Wordpress powered hosting but it doesn&amp;rsquo;t sound like fun to me ;) I&amp;rsquo;ve done some research and found out that static site generator would be the perfect solution here.</description>
+    </item>
+    
+    <item>
+      <title>Hi everyone!</title>
+      <link>https://tpalucki.gitub.io/posts/about-me/</link>
+      <pubDate>Fri, 08 May 2020 14:54:33 +0200</pubDate>
+      
+      <guid>https://tpalucki.gitub.io/posts/about-me/</guid>
+      <description>This is my first post ever so I just wanted to say hello to everyone visiting my page. My name is Tomasz and I&amp;rsquo;ve created this blog to have easily accessible place to post the notes I create during my work.</description>
+    </item>
+    
+  </channel>
+</rss>

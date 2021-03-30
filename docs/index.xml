@@ -6,7 +6,17 @@
     <description>Recent content on Tomasz Pałucki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 May 2020 15:09:22 +0200</lastBuildDate><atom:link href="https://tpalucki.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Mar 2021 22:52:12 +0200</lastBuildDate><atom:link href="https://tpalucki.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interview Questions</title>
+      <link>https://tpalucki.github.io/posts/interview-questions/</link>
+      <pubDate>Tue, 30 Mar 2021 22:52:12 +0200</pubDate>
+      
+      <guid>https://tpalucki.github.io/posts/interview-questions/</guid>
+      <description>Here is the selection of the interview questions that cought me unguarded, so I noted them not to forget
+What is an object&amp;rsquo;s hash code if hashCode() is not overridden?</description>
+    </item>
+    
     <item>
       <title>Spring Boot With Angular build integration</title>
       <link>https://tpalucki.github.io/posts/spring-boot-with-angular-tutorial/</link>

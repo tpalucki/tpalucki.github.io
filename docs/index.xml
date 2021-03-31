@@ -6,7 +6,17 @@
     <description>Recent content on Tomasz Pałucki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Mar 2021 22:52:12 +0200</lastBuildDate><atom:link href="https://tpalucki.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Mar 2021 23:16:07 +0200</lastBuildDate><atom:link href="https://tpalucki.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disqus - you&#39;re doing it the wrong way</title>
+      <link>https://tpalucki.github.io/posts/disqus-the-wrong-way/</link>
+      <pubDate>Wed, 31 Mar 2021 23:16:07 +0200</pubDate>
+      
+      <guid>https://tpalucki.github.io/posts/disqus-the-wrong-way/</guid>
+      <description>Recently I started searching for a comment system I could use on this blog. Pretty standard functionality for a blog, but as this is static site, there is no option/plugin included by default.
+After some time spent on research I ended up with Disqus - I know there is a ton of hate over this platform recently but honestly installation is super easy - needs just copy-pasting some html/js code, generating id and you are set.</description>
+    </item>
+    
     <item>
       <title>Interview Questions</title>
       <link>https://tpalucki.github.io/posts/interview-questions/</link>

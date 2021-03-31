@@ -11,7 +11,7 @@ Some of them:
 - Readability
 - Ease of configuration
 - Themes available - because I want to deliver fast to stay in the fun zone
-- Possibility to extend later
+- Possibility to extend later (comments etc)
 
 The easiest way would be to setup blog on a Wordpress powered hosting  but it doesn't sound like fun to me ;)
 I've done some research and found out that static site generator would be the perfect solution here. Light, simple configuration, fast delivery and huge field for modifications - sounds perfect to me!

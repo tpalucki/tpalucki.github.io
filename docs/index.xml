@@ -60,6 +60,15 @@ Step 1 - Generate the Spring Boot App Go to https://start.</description>
     </item>
     
     <item>
+      <title></title>
+      <link>https://tpalucki.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tpalucki.github.io/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Archive</title>
       <link>https://tpalucki.github.io/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -7,18 +7,16 @@ theme: "PaperMod"
 publishdir: docs/
 
 enableRobotsTXT: true
+enableEmoji: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
-enableEmoji: true
 
 googleAnalytics: UA-49627445-2
 
 minify:
   disableXML: true
-  #  minifyOutput: true
-  minifyOutput: false
+  minifyOutput: true
 
 outputs:
   home:
@@ -29,7 +27,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Tomasz Pałucki
-  description: "ExampleSite description"
+  description: "Tomasz Pałucki | Software developer - personal blog"
   author: Tomasz Pałucki
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -40,17 +38,20 @@ params:
   ShowReadingTime: true
   ShowShareButtons: false
   disableSpecial1stPost: false
-#  comments: false
-  comments: true
+  ShowPostNavLinks: true
+  comments: false
   hidemeta: false
   showtoc: false
-  #  showtoc: true
   tocopen: false
-  #  tocopen: true
   ShowBreadCrumbs: true
 
+  editPost:
+    URL: "https://github.com/tpalucki/tpalucki.github.io/tree/master/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
   assets:
-    # disableHLJS: true # to disable highlight.js
+    #    disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
@@ -58,15 +59,15 @@ params:
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
-  label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+  #  label:
+  #    text: "Home"
+  #    icon: /apple-touch-icon.png
+  #    iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
+    title: Tomasz Pałucki
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -105,7 +106,7 @@ params:
   # for search
   # https://fusejs.io/api/options.html
   fuseOpts:
-    isCaseSensitive: false2
+    isCaseSensitive: false
     shouldSort: true
     location: 0
     distance: 1000
@@ -131,12 +132,12 @@ menu:
       url: /search/
       weight: 10
 
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
+  # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+  # pygmentsUseClasses: true
+#markup:
+#  highlight:
+#    # anchorLineNos: true
+#    codeFences: true
+#    guessSyntax: true
+#    lineNos: true
+#    style: monokai

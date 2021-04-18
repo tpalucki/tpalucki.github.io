@@ -1,3 +1,9 @@
+---
+title: "Gitk"
+date: 2021-04-18T19:23:59+02:00
+draft: true
+---
+
 To maintain the mental repo map in my mind i can use following git tools:
 
 >   git log --graph

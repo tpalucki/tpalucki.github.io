@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Tomasz Pałucki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Mar 2021 23:16:07 +0200</lastBuildDate><atom:link href="https://tpalucki.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Apr 2021 19:27:37 +0200</lastBuildDate><atom:link href="https://tpalucki.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A few words on how this blog is built</title>
+      <link>https://tpalucki.github.io/posts/how-this-blog-is-built/</link>
+      <pubDate>Sun, 18 Apr 2021 19:27:37 +0200</pubDate>
+      
+      <guid>https://tpalucki.github.io/posts/how-this-blog-is-built/</guid>
+      <description>I haven&amp;rsquo;t had any experience in building a blog yet but as an engineer I had some vision and principles I wanted to follow. Some of them are:
+ Simplicity and minimalism Readability Ease of configuration Themes available - because I want to deliver fast to stay in the fun zone Possibility to extend later (comments etc)  The easiest way would be to setup blog on a Wordpress powered hosting but it doesn&amp;rsquo;t sound like fun to me 😁 I&amp;rsquo;ve done some research and found out that static site generator would be the perfect solution here.</description>
+    </item>
+    
     <item>
       <title>Disqus - you&#39;re doing it the wrong way</title>
       <link>https://tpalucki.github.io/posts/disqus-the-wrong-way/</link>

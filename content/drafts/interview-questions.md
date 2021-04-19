@@ -1,7 +1,7 @@
 ---
 title: "Interview Questions"
 date: 2021-03-30T22:52:12+02:00
-draft: false
+draft: true
 ---
 
 Here is the selection of the interview questions that caught me unguarded, so I noted them not to forget
@@ -16,3 +16,7 @@ Design patterns:
 Data structures:
 
 - [Binary tree](https://www.interviewcake.com/concept/python/binary-tree?)
+
+REST:
+
+- [GET vs PUT vs POST vs PATCH](https://stackoverflow.com/questions/31089221/what-is-the-difference-between-put-post-and-patch)

@@ -12,6 +12,7 @@ Here is the selection of the interview questions that caught me unguarded, so I 
 Design patterns:
 
 - [Decorator](https://www.samouczekprogramisty.pl/wzorzec-projektowy-dekorator/)
+- [Factory method](https://www.samouczekprogramisty.pl/wzorzec-projektowy-metoda-wytworcza/)
 
 Data structures:
 
@@ -20,3 +21,31 @@ Data structures:
 REST:
 
 - [GET vs PUT vs POST vs PATCH](https://stackoverflow.com/questions/31089221/what-is-the-difference-between-put-post-and-patch)
+- [Richardson's maturity model](https://jakzostacprogramista.net/2020/11/25/rest-api-model-dojrzalosci-richardsona/)
+
+
+SQL:  
+
+- [How does indexing work?](https://stackoverflow.com/questions/1108/how-does-database-indexing-work)
+- [Relational database introduction](https://www.samouczekprogramisty.pl/wstep-do-relacyjnych-baz-danych/)
+- [Tasks to train SQL queries](https://www.samouczekprogramisty.pl/funkcje-i-grupowanie-wierszy-w-sql/)
+- [UNION / UNION ALL - query result appending](https://www.samouczekprogramisty.pl/sortowanie-aliasy-ograniczanie-wynikow-i-zwracanie-unikalnych-wartosci/#scalanie-wynik%C3%B3w-wielu-zapyta%C5%84)
+- [Subqueries](https://www.samouczekprogramisty.pl/podzapytania-sql/)
+ 
+Microservices:
+- [Guidelines to design microservices](https://medium.com/@WSO2/guidelines-for-designing-microservices-71ee1997776c)
+
+JPA
+
+- [How Spring's @Transactional works](https://dzone.com/articles/how-does-spring-transactional)
+
+Others
+
+- [How to represent money in Java](https://www.javacodemonk.com/which-data-type-would-you-choose-for-storing-monetary-values-in-java-6692c78c)
+
+Java
+
+- default hashCode()
+- [How to make object immutable?](https://www.baeldung.com/java-immutable-object)
+- [Double-checked locking problem](https://www.javacodemonk.com/what-is-double-checked-locking-problem-in-multi-threading-17daeca6)
+- [How to depp copy of the collection]()

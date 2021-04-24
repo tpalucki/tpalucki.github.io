@@ -49,3 +49,20 @@ Java
 - [How to make object immutable?](https://www.baeldung.com/java-immutable-object)
 - [Double-checked locking problem](https://www.javacodemonk.com/what-is-double-checked-locking-problem-in-multi-threading-17daeca6)
 - [How to depp copy of the collection]()
+- [Java memory model explained](http://tutorials.jenkov.com/java-concurrency/java-memory-model.html)
+- [StringBuilder vs StringBuffer](https://www.samouczekprogramisty.pl/string-cache-i-stringbuilder-w-praktyce/)
+- [Co to typ generyczny i jak działa?](https://www.samouczekprogramisty.pl/typy-generyczne-w-jezyku-java/)
+- [Lambda expressions how to](https://www.samouczekprogramisty.pl/wyrazenia-lambda-w-jezyku-java/)
+- [Inner classes/interfaces/enums how to](https://www.samouczekprogramisty.pl/klasy-wewnetrzne-i-anonimowe-w-jezyku-java/)
+- [What is constructor chaingin?](https://www.edureka.co/blog/interview-questions/java-interview-questions/)
+- [What is Java Classloader?](https://www.edureka.co/blog/interview-questions/java-interview-questions/)
+- [How thread works?](https://www.samouczekprogramisty.pl/watki-w-jezyku-java/)
+- [What is AutoCloseable interface?]()
+- [What are the Java 8 features](https://www.journaldev.com/2389/java-8-features-with-examples)
+
+Questions
+
+- [Edureka - Java interview questions](https://www.edureka.co/blog/interview-questions/java-interview-questions/)
+- [Codemonk - nice set of itnerview question]()
+- [Edureka - Java collections interview question](https://www.edureka.co/blog/interview-questions/java-collections-interview-questions/)
+- [Guru99 - Interview questions](https://www.guru99.com/java-interview-questions-answers.html)

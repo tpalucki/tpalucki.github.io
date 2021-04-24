@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drafts on Tomasz Pałucki</title>
+    <link>https://tpalucki.github.io/drafts/</link>
+    <description>Recent content in Drafts on Tomasz Pałucki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Mar 2021 22:52:12 +0200</lastBuildDate><atom:link href="https://tpalucki.github.io/drafts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interview Notes</title>
+      <link>https://tpalucki.github.io/drafts/interview-questions/</link>
+      <pubDate>Tue, 30 Mar 2021 22:52:12 +0200</pubDate>
+      
+      <guid>https://tpalucki.github.io/drafts/interview-questions/</guid>
+      <description>Here is the selection of the interview questions that caught me unguarded, so I noted them not to forget
+ What is an object&amp;rsquo;s hash code if hashCode() is not overridden? How to achieve object&amp;rsquo;s immutability?  Design patterns:
+ Decorator Factory method  Data structures:
+ Binary tree  REST:
+ GET vs PUT vs POST vs PATCH Richardson&amp;rsquo;s maturity model  SQL:
+ How does indexing work? Relational database introduction Tasks to train SQL queries UNION / UNION ALL - query result appending Subqueries  Microservices:</description>
+    </item>
+    
+  </channel>
+</rss>

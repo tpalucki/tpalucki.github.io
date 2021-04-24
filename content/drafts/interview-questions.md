@@ -1,7 +1,7 @@
 ---
-title: "Interview Questions"
+title: "Interview Notes"
 date: 2021-03-30T22:52:12+02:00
-draft: true
+draft: false
 ---
 
 Here is the selection of the interview questions that caught me unguarded, so I noted them not to forget
@@ -59,6 +59,7 @@ Java
 - [How thread works?](https://www.samouczekprogramisty.pl/watki-w-jezyku-java/)
 - [What is AutoCloseable interface?]()
 - [What are the Java 8 features](https://www.journaldev.com/2389/java-8-features-with-examples)
+- [Java ByteCode analysis](https://www.jrebel.com/blog/java-bytecode-tutorial)
 
 Questions
 
